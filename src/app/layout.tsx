@@ -31,7 +31,7 @@ export default function RootLayout({
       >
         <Navbar/>
         <CategoryNavbar/>
-        {children}
+        <main className="mt-40 md:mt-28">{children}</main>
       </body>
     </html>
   );
