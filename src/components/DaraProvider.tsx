@@ -18,7 +18,7 @@ export const DataProvider = ({ children }: { children: React.ReactNode }) => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch("https://academics.newtonschool.co/api/v1/ecommerce/electronics/products", {
+                const response = await fetch("https://academics.newtonschool.co/api/v1/ecommerce/electronics/products?limit=500", {
                     method: "GET",
                     headers: {
                         "projectID": "0io9zoi91tt1"
